@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="06066a70-9cbb-4fc7-9e2a-153ab9a351e0" ChangeDateTime="11/02/2017 05:22:34">
+    <Property Name="ElementName" Value="[dbo].[Task].[CreatedBy]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FK_User_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e2c99fc6-fbb7-4247-bdce-914de5515810" ChangeDateTime="11/02/2017 05:25:47">
+    <Property Name="ElementName" Value="[dbo].[Project].[CreatedDateTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Project]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fc7ff735-3dbc-451a-9e0e-82889e39bc83" ChangeDateTime="11/02/2017 05:26:58">
+    <Property Name="ElementName" Value="[dbo].[Task].[FK_User_Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Fk_User_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f78b8f10-99b3-4465-903b-3d9253a0a602" ChangeDateTime="11/02/2017 05:27:08">
+    <Property Name="ElementName" Value="[dbo].[Project].[FK_User_Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Project]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Fk_User_Id" />
+  </Operation>
+</Operations>
